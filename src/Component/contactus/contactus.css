@@ -1,0 +1,38 @@
+.contact-image {
+  background: url(https://cdn.shopify.com/s/files/1/0531/2475/9744/files/newsletter_2_2048x.jpg?v=1612157258);
+  background-position: center top;
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+  min-height: 300px;
+}
+.banner-title {
+  margin-top: 5rem;
+  font-size: 40px;
+  color: #ffffff;
+  position: relative;
+  top: 50px;
+}
+.banner-heading {
+  font-size: 12px;
+  color: #ffffff;
+  position: relative;
+  top: 50px;
+}
+.block-content {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.empty-space {
+  height: 100vh;
+}
+@media only screen and (max-device-width: 768px) {
+  .contact-image {
+    background-attachment: scroll;
+  }
+}

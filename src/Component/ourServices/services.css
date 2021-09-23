@@ -1,0 +1,96 @@
+.card-view {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.card {
+  /* position: absolute;
+  top: 50%;
+  left: 50%; */
+  height: 400px;
+  /* width: 400px; */
+  /* transform: translate(-50%, -50%); */
+  /* transform-style: preserve-3d; */
+  perspective: 600px;
+  transition: 0.5s;
+}
+.card:hover .card-front {
+  transform: rotateX(-180deg);
+}
+.card:hover .card-back {
+  transform: rotateX(0deg);
+}
+
+.img-1 {
+  height: 100%;
+  width: 100%;
+  background-image: url(https://cdn.shopify.com/s/files/1/0531/2475/9744/files/LIFESTYLE_1_370x_crop_center.png?v=1617716360);
+  background-position: 50% 50%;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #000000;
+  backface-visibility: hidden;
+  transform: rotateX(0deg);
+  transition: 0.5s;
+}
+.img-2 {
+  height: 100%;
+  width: 100%;
+  background-image: url(https://cdn.shopify.com/s/files/1/0531/2475/9744/files/dog-grooming-1_370x_crop_center.png?v=1619173879);
+  background-position: 50% 50%;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #000000;
+  backface-visibility: hidden;
+  transform: rotateX(0deg);
+  transition: 0.5s;
+}
+.img-3 {
+  height: 100%;
+  width: 100%;
+  background-image: url(https://cdn.shopify.com/s/files/1/0531/2475/9744/files/dog-food_1_370x_crop_center.png?v=1617716217);
+  background-position: 50% 50%;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #000000;
+  backface-visibility: hidden;
+  transform: rotateX(0deg);
+  transition: 0.5s;
+}
+
+.card-back {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #000000;
+  backface-visibility: hidden;
+  transform: rotateX(180deg);
+  transition: 0.5s;
+  color: #ffffff;
+  text-align: center;
+}
+.card-back h2 {
+  margin: 60% auto 35% auto;
+  font-size: 30px;
+}
+/* @media (max-width: 480px) {
+  .card {
+    max-height: 100%;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1365px) {
+  .card {
+    max-height: 100%;
+    max-width: 100%;
+  }
+} */

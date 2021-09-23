@@ -1,0 +1,14 @@
+.footer-main {
+  background-color: #f3f3f3;
+}
+.title {
+  font-size: 20px;
+  font-weight: 500;
+}
+.sub-heading {
+  font-size: 12px;
+}
+.developer-name {
+  background-color: #ddd;
+  height: 3vh;
+}

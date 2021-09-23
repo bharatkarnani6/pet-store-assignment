@@ -1,0 +1,31 @@
+.mainmenu {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 45px;
+}
+.mainmenu a {
+  color: black;
+  font-weight: 500;
+}
+.mainmenu a:hover {
+  color: blue !important;
+  text-decoration: underline;
+}
+.cartmenu {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+}
+@media (max-width: 480px) {
+  .mainmenu {
+    gap: 5px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1365px) {
+  .mainmenu {
+    gap: 5px;
+  }
+}
