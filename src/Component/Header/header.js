@@ -13,7 +13,7 @@ export default function Headers() {
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                        <ul className="navbar-nav mainmenu ">
+                        <ul className="navbar-nav mainmenu mt-2 ">
                             <li className="nav-item">
                                 <a className="nav-link" aria-current="page" href="#">HOME</a>
                             </li>
